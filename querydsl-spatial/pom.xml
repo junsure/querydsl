@@ -86,7 +86,7 @@
             <configuration>
               <outputDirectory>target/generated-test-sources/java</outputDirectory>
               <processors>
-                <processor>com.mysema.query.apt.QuerydslAnnotationProcessor</processor>
+                <processor>com.querydsl.apt.QuerydslAnnotationProcessor</processor>
               </processors>
             </configuration>
           </execution>

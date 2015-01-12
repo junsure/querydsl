@@ -282,7 +282,7 @@
         <configuration>
           <jdbcDriver>org.apache.derby.jdbc.EmbeddedDriver</jdbcDriver>
           <jdbcUrl>jdbc:derby:target/demoDB;create=true</jdbcUrl>
-          <packageName>com.mysema.query.sql.domain2</packageName>
+          <packageName>com.querydsl.sql.domain2</packageName>
           <targetFolder>target/generated-test-sources/java</targetFolder>
         </configuration>
         <dependencies>

@@ -244,7 +244,7 @@
             </goals>
             <configuration>
               <outputDirectory>target/generated-test-sources/java</outputDirectory>
-              <processor>com.mysema.query.apt.QuerydslAnnotationProcessor</processor>
+              <processor>com.querydsl.apt.QuerydslAnnotationProcessor</processor>
               <logOnlyOnError>true</logOnlyOnError>
             </configuration>
           </execution>
@@ -258,7 +258,7 @@
         <configuration>
           <jdbcDriver>org.hsqldb.jdbcDriver</jdbcDriver>
           <jdbcUrl>jdbc:hsqldb:target/jdo</jdbcUrl>
-          <packageName>com.mysema.query.jdo.test.domain.sql</packageName>
+          <packageName>com.querydsl.jdo.test.domain.sql</packageName>
           <userName>sa</userName>
           <targetFolder>src/test/java</targetFolder>
           <namePrefix>S</namePrefix>

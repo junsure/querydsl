@@ -182,7 +182,7 @@
           <targetFolder>target/genericExporter</targetFolder>
           <scala>true</scala>
           <packages>
-            <package>com.mysema.query.scala</package>
+            <package>com.querydsl.scala</package>
           </packages>
         </configuration>
         <dependencies>
