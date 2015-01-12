@@ -5,7 +5,7 @@ import org.junit.experimental.categories.Category;
 
 import com.querydsl.sql.*;
 import com.querydsl.sql.spatial.TeradataSpatialTemplates;
-import com.querydsl.jpa.testutil.ExternalDB;
+import com.querydsl.core.testutil.ExternalDB;
 
 @Category(ExternalDB.class)
 public class TeradataLiteralsSuiteTest extends AbstractSuite {

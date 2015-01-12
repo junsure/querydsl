@@ -17,7 +17,7 @@ import com.querydsl.sql.SQLSubQuery;
 import com.querydsl.core.types.*;
 import com.querydsl.core.types.expr.DateExpression;
 import com.querydsl.core.types.expr.Wildcard;
-import com.querydsl.jpa.testutil.ExcludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
 import org.junit.Ignore;
 import org.junit.Test;
 import static org.junit.Assert.*;

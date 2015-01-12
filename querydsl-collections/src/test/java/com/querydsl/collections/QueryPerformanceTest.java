@@ -10,9 +10,9 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 import com.querydsl.collections.QCat;
-import com.querydsl.jpa.testutil.Benchmark;
-import com.querydsl.jpa.testutil.Performance;
-import com.querydsl.jpa.testutil.Runner;
+import com.querydsl.core.testutil.Benchmark;
+import com.querydsl.core.testutil.Performance;
+import com.querydsl.core.testutil.Runner;
 
 @Ignore
 @Category(Performance.class)

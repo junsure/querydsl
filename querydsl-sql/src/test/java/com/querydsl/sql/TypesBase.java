@@ -17,7 +17,7 @@ import com.querydsl.sql.ddl.CreateTableClause;
 import com.querydsl.sql.ddl.DropTableClause;
 import com.querydsl.core.support.Expressions;
 import com.querydsl.core.types.Path;
-import com.querydsl.jpa.testutil.ExcludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
 
 public class TypesBase extends AbstractBaseTest {
 

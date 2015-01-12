@@ -49,8 +49,8 @@ import com.querydsl.core.types.path.PathBuilder;
 import com.querydsl.core.types.path.StringPath;
 import com.querydsl.core.types.query.NumberSubQuery;
 import com.querydsl.core.types.template.NumberTemplate;
-import com.querydsl.jpa.testutil.ExcludeIn;
-import com.querydsl.jpa.testutil.IncludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
+import com.querydsl.core.testutil.IncludeIn;
 
 public class SelectBase extends AbstractBaseTest {
 

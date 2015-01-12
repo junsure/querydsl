@@ -30,7 +30,7 @@ import com.querydsl.jpa.domain.QCat;
 import com.querydsl.jpa.domain.sql.SAnimal;
 import com.querydsl.jpa.hibernate.sql.HibernateSQLQuery;
 import com.querydsl.sql.SQLTemplates;
-import com.querydsl.jpa.testutil.ExcludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
 import com.querydsl.jpa.testutil.HibernateTestRunner;
 
 @RunWith(HibernateTestRunner.class)

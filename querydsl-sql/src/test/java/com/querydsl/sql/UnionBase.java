@@ -16,7 +16,7 @@ import com.querydsl.core.types.path.NumberPath;
 import com.querydsl.core.types.query.ListSubQuery;
 import com.querydsl.core.types.query.SimpleSubQuery;
 import com.querydsl.core.types.template.NumberTemplate;
-import com.querydsl.jpa.testutil.ExcludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
 import org.junit.Test;
 import static com.querydsl.sql.Constants.employee;
 import static com.querydsl.core.Target.*;

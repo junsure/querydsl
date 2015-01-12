@@ -1,5 +1,5 @@
 /*
- * Copyright 2011, Mysema Ltd
+ * Copyright 2012, Mysema Ltd
  * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -11,20 +11,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.querydsl.jpa.testutil;
+package com.querydsl.core.testutil;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Inherited;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+public interface Benchmark {
+    
+    void run(int times) throws Exception;
 
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
-@Inherited
-public @interface ResourceCheck {
-    /**
-     * @return
-     */
-    public String value();
 }

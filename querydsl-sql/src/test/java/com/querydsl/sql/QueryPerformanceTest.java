@@ -17,9 +17,9 @@ import com.mysema.commons.lang.CloseableIterator;
 import com.querydsl.core.DefaultQueryMetadata;
 import com.querydsl.core.JoinType;
 import com.querydsl.core.QueryMetadata;
-import com.querydsl.jpa.testutil.Benchmark;
-import com.querydsl.jpa.testutil.Performance;
-import com.querydsl.jpa.testutil.Runner;
+import com.querydsl.core.testutil.Benchmark;
+import com.querydsl.core.testutil.Performance;
+import com.querydsl.core.testutil.Runner;
 
 @Category(Performance.class)
 public class QueryPerformanceTest {

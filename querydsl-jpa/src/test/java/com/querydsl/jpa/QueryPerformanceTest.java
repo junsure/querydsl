@@ -18,7 +18,7 @@ import com.querydsl.jpa.domain.Cat;
 import com.querydsl.jpa.domain.QCat;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.testutil.JPATestRunner;
-import com.querydsl.jpa.testutil.Performance;
+import com.querydsl.core.testutil.Performance;
 
 @RunWith(JPATestRunner.class)
 @Ignore

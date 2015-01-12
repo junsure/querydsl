@@ -38,7 +38,7 @@ import com.querydsl.jpa.impl.JPADeleteClause;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.core.types.EntityPath;
 import com.querydsl.core.types.expr.BooleanExpression;
-import com.querydsl.jpa.testutil.ExcludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
 import com.querydsl.jpa.testutil.JPATestRunner;
 
 /**

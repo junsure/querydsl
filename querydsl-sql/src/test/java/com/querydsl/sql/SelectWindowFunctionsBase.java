@@ -21,8 +21,8 @@ import com.querydsl.core.types.path.NumberPath;
 import com.querydsl.core.types.path.SimplePath;
 import com.querydsl.core.types.query.ListSubQuery;
 import com.querydsl.core.types.query.SimpleSubQuery;
-import com.querydsl.jpa.testutil.ExcludeIn;
-import com.querydsl.jpa.testutil.IncludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
+import com.querydsl.core.testutil.IncludeIn;
 
 public class SelectWindowFunctionsBase extends AbstractBaseTest {
 

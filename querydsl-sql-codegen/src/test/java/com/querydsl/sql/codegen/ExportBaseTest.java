@@ -21,10 +21,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import com.querydsl.sql.Connections;
-import com.querydsl.sql.codegen.DefaultNamingStrategy;
-import com.querydsl.sql.codegen.MetaDataExporter;
-import com.querydsl.sql.codegen.NamingStrategy;
-import com.querydsl.jpa.testutil.FilteringTestRunner;
+import com.querydsl.core.testutil.FilteringTestRunner;
 
 @RunWith(FilteringTestRunner.class)
 public abstract class ExportBaseTest {

@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.querydsl.jpa.testutil.ExternalDB;
+import com.querydsl.core.testutil.ExternalDB;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

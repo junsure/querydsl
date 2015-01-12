@@ -16,9 +16,6 @@ import org.junit.Test;
 import com.google.common.base.Charsets;
 import com.google.common.io.Resources;
 import com.querydsl.sql.Connections;
-import com.querydsl.sql.codegen.DefaultNamingStrategy;
-import com.querydsl.sql.codegen.MetaDataExporter;
-import com.querydsl.sql.codegen.NamingStrategy;
 
 public class ExportH2TwoSchemasTest {
 

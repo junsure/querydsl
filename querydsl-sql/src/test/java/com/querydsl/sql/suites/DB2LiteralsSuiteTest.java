@@ -4,7 +4,7 @@ import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 import com.querydsl.sql.*;
-import com.querydsl.jpa.testutil.ExternalDB;
+import com.querydsl.core.testutil.ExternalDB;
 
 @Category(ExternalDB.class)
 public class DB2LiteralsSuiteTest extends AbstractSuite {

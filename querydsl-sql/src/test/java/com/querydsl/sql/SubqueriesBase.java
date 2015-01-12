@@ -20,7 +20,7 @@ import com.querydsl.core.types.expr.Wildcard;
 import com.querydsl.core.types.path.NumberPath;
 import com.querydsl.core.types.path.PathBuilder;
 import com.querydsl.core.types.query.ListSubQuery;
-import com.querydsl.jpa.testutil.ExcludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
 
 public class SubqueriesBase extends AbstractBaseTest {
 

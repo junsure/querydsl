@@ -39,7 +39,7 @@ import com.querydsl.core.types.EntityPath;
 import com.querydsl.core.types.OrderSpecifier;
 import com.querydsl.core.types.Predicate;
 import com.querydsl.core.types.path.StringPath;
-import com.querydsl.jpa.testutil.ExternalDB;
+import com.querydsl.core.testutil.ExternalDB;
 
 @Category(ExternalDB.class)
 public class MongodbQueryTest {

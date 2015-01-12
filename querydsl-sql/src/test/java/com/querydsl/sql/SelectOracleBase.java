@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 
 import com.querydsl.sql.domain.QEmployee;
 import com.querydsl.sql.oracle.OracleQuery;
-import com.querydsl.jpa.testutil.IncludeIn;
+import com.querydsl.core.testutil.IncludeIn;
 
 public class SelectOracleBase extends AbstractBaseTest {
 

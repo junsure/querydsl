@@ -1,4 +1,4 @@
-package com.querydsl.jpa.testutil;
+package com.querydsl.core.testutil;
 
 public interface DummyInterface {
 

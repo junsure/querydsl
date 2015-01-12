@@ -1,6 +1,6 @@
 package com.querydsl.sql;
 
-import com.querydsl.jpa.testutil.EmptyStatement;
+import com.querydsl.core.testutil.EmptyStatement;
 import org.junit.rules.MethodRule;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;

@@ -30,7 +30,7 @@ import com.mongodb.MongoException;
 import com.querydsl.mongodb.domain.GeoEntity;
 import com.querydsl.mongodb.domain.QGeoEntity;
 import com.querydsl.mongodb.morphia.MorphiaQuery;
-import com.querydsl.jpa.testutil.ExternalDB;
+import com.querydsl.core.testutil.ExternalDB;
 
 @Category(ExternalDB.class)
 public class GeoSpatialQueryTest {

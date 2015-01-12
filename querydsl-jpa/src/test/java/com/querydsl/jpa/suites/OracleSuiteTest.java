@@ -11,7 +11,7 @@ import com.querydsl.jpa.Mode;
 import com.querydsl.core.Target;
 import com.querydsl.jpa.JPAIntegrationBase;
 import com.querydsl.jpa.SerializationBase;
-import com.querydsl.jpa.testutil.ExternalDB;
+import com.querydsl.core.testutil.ExternalDB;
 
 @Category(ExternalDB.class)
 public class OracleSuiteTest extends AbstractSuite {

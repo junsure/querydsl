@@ -1,7 +1,7 @@
 package com.querydsl.core.support;
 
-import com.querydsl.jpa.testutil.Benchmark;
-import com.querydsl.jpa.testutil.Runner;
+import com.querydsl.core.testutil.Benchmark;
+import com.querydsl.core.testutil.Runner;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

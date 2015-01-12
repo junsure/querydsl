@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.querydsl.jpa.testutil;
+package com.querydsl.core.testutil;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
@@ -20,11 +20,11 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.METHOD, ElementType.TYPE})
+@Target(ElementType.TYPE)
 @Inherited
-public @interface ExcludeIn {
+public @interface ResourceCheck {
     /**
      * @return
      */
-    com.querydsl.core.Target[] value();
+    public String value();
 }

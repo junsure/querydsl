@@ -17,7 +17,7 @@ import com.querydsl.mongodb.domain.QUser;
 import com.querydsl.mongodb.domain.User;
 import com.querydsl.mongodb.morphia.MorphiaQuery;
 import com.querydsl.core.types.Predicate;
-import com.querydsl.jpa.testutil.ExternalDB;
+import com.querydsl.core.testutil.ExternalDB;
 
 @Category(ExternalDB.class)
 public class JoinTest {

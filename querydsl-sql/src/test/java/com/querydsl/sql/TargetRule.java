@@ -8,9 +8,9 @@ import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 
 import com.querydsl.core.Target;
-import com.querydsl.jpa.testutil.EmptyStatement;
-import com.querydsl.jpa.testutil.ExcludeIn;
-import com.querydsl.jpa.testutil.IncludeIn;
+import com.querydsl.core.testutil.EmptyStatement;
+import com.querydsl.core.testutil.ExcludeIn;
+import com.querydsl.core.testutil.IncludeIn;
 
 public class TargetRule implements MethodRule {
 

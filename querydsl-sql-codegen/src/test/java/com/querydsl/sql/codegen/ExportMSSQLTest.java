@@ -15,7 +15,7 @@ package com.querydsl.sql.codegen;
 
 import org.junit.BeforeClass;
 
-import com.querydsl.jpa.testutil.ResourceCheck;
+import com.querydsl.core.testutil.ResourceCheck;
 import com.querydsl.sql.Connections;
 
 @ResourceCheck("/sqlserver.run")

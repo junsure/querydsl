@@ -11,20 +11,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.querydsl.jpa.testutil;
+package com.querydsl.core.testutil;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Inherited;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import org.junit.runners.model.Statement;
 
-@Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.METHOD, ElementType.TYPE})
-@Inherited
-public @interface IncludeIn {
-    /**
-     * @return
-     */
-    com.querydsl.core.Target[] value();
+public class EmptyStatement extends Statement{
+
+    public static final Statement DEFAULT = new EmptyStatement();
+    
+    private EmptyStatement() {}
+
+    @Override
+    public void evaluate() throws Throwable {
+        
+    }
+
 }

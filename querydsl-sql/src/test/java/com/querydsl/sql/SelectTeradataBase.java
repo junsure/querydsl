@@ -6,7 +6,7 @@ import static com.querydsl.core.Target.TERADATA;
 import org.junit.Test;
 
 import com.querydsl.sql.teradata.SetQueryBandClause;
-import com.querydsl.jpa.testutil.IncludeIn;
+import com.querydsl.core.testutil.IncludeIn;
 
 public class SelectTeradataBase extends AbstractBaseTest {
 

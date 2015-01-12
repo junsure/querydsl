@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.querydsl.jpa.testutil;
+package com.querydsl.core.testutil;
 
 import org.junit.runner.Description;
 import org.junit.runner.Result;

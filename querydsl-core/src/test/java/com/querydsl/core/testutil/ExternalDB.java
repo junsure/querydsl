@@ -1,4 +1,4 @@
-package com.querydsl.jpa.testutil;
+package com.querydsl.core.testutil;
 
 /**
  * ExternalDB is used as a test category

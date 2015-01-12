@@ -6,7 +6,7 @@ import static com.querydsl.core.Target.MYSQL;
 import org.junit.Test;
 
 import com.querydsl.sql.mysql.MySQLQuery;
-import com.querydsl.jpa.testutil.IncludeIn;
+import com.querydsl.core.testutil.IncludeIn;
 
 
 public class SelectMySQLBase extends AbstractBaseTest {

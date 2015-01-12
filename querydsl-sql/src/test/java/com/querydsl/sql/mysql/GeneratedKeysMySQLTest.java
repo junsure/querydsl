@@ -18,7 +18,7 @@ import java.sql.*;
 import com.querydsl.sql.QGeneratedKeysEntity;
 import com.querydsl.sql.H2Templates;
 import com.querydsl.sql.dml.SQLInsertClause;
-import com.querydsl.jpa.testutil.ExternalDB;
+import com.querydsl.core.testutil.ExternalDB;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

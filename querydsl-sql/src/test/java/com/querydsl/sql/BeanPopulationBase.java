@@ -30,7 +30,7 @@ import org.junit.Test;
 import com.querydsl.sql.dml.BeanMapper;
 import com.querydsl.sql.domain.Employee;
 import com.querydsl.sql.domain.QEmployee;
-import com.querydsl.jpa.testutil.ExcludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
 
 @ExcludeIn({CUBRID, DB2, DERBY, ORACLE, SQLSERVER, POSTGRES, SQLITE, TERADATA})
 public class BeanPopulationBase extends AbstractBaseTest {

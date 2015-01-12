@@ -39,8 +39,8 @@ import com.querydsl.core.support.Expressions;
 import com.querydsl.core.types.Path;
 import com.querydsl.core.types.PathImpl;
 import com.querydsl.core.types.expr.Param;
-import com.querydsl.jpa.testutil.ExcludeIn;
-import com.querydsl.jpa.testutil.IncludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
+import com.querydsl.core.testutil.IncludeIn;
 
 public class InsertBase extends AbstractBaseTest {
 

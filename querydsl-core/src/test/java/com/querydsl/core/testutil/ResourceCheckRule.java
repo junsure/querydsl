@@ -11,33 +11,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.querydsl.jpa.testutil;
-
-import java.lang.annotation.Annotation;
+package com.querydsl.core.testutil;
 
 import org.junit.rules.MethodRule;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 
-public class SkipForAnnotationRule implements MethodRule {
-    
-    private final Class<? extends Annotation> classAnnotation;
-    
-    private final Class<? extends Annotation> methodAnnotation;
-    
-    public SkipForAnnotationRule(Class<? extends Annotation> classAnnotation, Class<? extends Annotation> methodAnnotation) {
-        this.classAnnotation = classAnnotation;
-        this.methodAnnotation = methodAnnotation;
-    }
+public class ResourceCheckRule implements MethodRule{
 
     @Override
     public Statement apply(Statement base, FrameworkMethod method, Object target) {
-        if (target.getClass().getAnnotation(classAnnotation) != null
-          && method.getMethod().getAnnotation(methodAnnotation) != null) {
-            return EmptyStatement.DEFAULT;
-        } else {
-            return base;
+        Class<?> testClass = target.getClass();
+        ResourceCheck rc = testClass.getAnnotation(ResourceCheck.class);
+        boolean run = true;
+        if (rc != null) {
+            run = testClass.getResourceAsStream(rc.value()) != null;
         }
+        return run ? base : EmptyStatement.DEFAULT;
     }
 
 }

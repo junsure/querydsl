@@ -25,7 +25,7 @@ import com.querydsl.jpa.domain.*;
 import com.querydsl.core.types.expr.ComparableExpression;
 import com.querydsl.core.types.expr.DateExpression;
 import com.querydsl.core.types.expr.NumberExpression;
-import com.querydsl.jpa.testutil.ExcludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
 
 import antlr.RecognitionException;
 import antlr.TokenStreamException;

@@ -43,7 +43,7 @@ import com.querydsl.core.types.*;
 import com.querydsl.core.types.expr.*;
 import com.querydsl.core.types.path.*;
 import com.querydsl.core.types.template.NumberTemplate;
-import com.querydsl.jpa.testutil.ExcludeIn;
+import com.querydsl.core.testutil.ExcludeIn;
 
 import antlr.RecognitionException;
 import antlr.TokenStreamException;
